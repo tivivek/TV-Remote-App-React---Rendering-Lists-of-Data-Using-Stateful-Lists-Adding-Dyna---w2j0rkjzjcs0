@@ -44,8 +44,7 @@ button {
 .tv-container {
   margin: 7px;
   margin-bottom: 0px;
-  background-color:white;
-  font-weight: 25px;
+  background-color: #000;
   width: 480px;
   height: 320px;
   box-shadow: inset  0 5px 5px rgba(0,0,0,.9);
@@ -144,7 +143,7 @@ block-round {
   position: absolute;
   font-style: normal;
   font-weight: normal;
-[2:23 pm, 21/08/2022] Deepshika: text-decoration: inherit;
+  text-decoration: inherit;
   position: absolute;
   font-size: 20px;
   top: 5px;
@@ -165,61 +164,4 @@ block-round {
   background-color: rgb(244, 9, 9);
   border-radius: 50%;
   display: inline-block;
-}
-#block{
-    width: 200px;
-    height: 300px;
-    border: 2px solid rgb(3, 1, 2);
-    border-radius: 15px;
-    padding: 20px;
-    background-color: black;
-}
-#container{
-width: 200px;
-height: 200px;
-border: 1px solid gray;
-margin: 10px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-.block .block-navigate{
-    width: 100%;
-    height: 50px;
-    
-    
-}
-#power-on{
-    padding: 5px;
-    width: 40px;
-    height: 40px;
-    background-color: green;
-    float: left;
-    border-radius: 50px;
-}
-#power-off{
-    padding: 5px;
-    width: 40px;
-    height: 40px;
-    background-color: red;
-    float: right;
-    border-radius: 50px;
-    
-
-}
-
-.block .block-channel{
-    padding: 10px;
-    width: 100%;
-    height: 200px;
-    margin-left: 6px;
-    margin-top: 10px;
-}
-.block .block-channel button{
-    padding: 20px;
-    margin: 2px;
-    border: 1px solid rgb(47, 204, 27);
-    border-radius: 50px;
-
 }
